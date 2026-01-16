@@ -19,10 +19,11 @@ const Contact = () => {
       })
       .then(
         () => {
-          console.log("SUCCESS!");
+          alert("SUCCESS!");
+          form.current.reset()
         },
         (error) => {
-          console.log("FAILED...", error.text);
+          alert("FAILED...", error.text);
         }
       );
   };
@@ -81,17 +82,16 @@ const Contact = () => {
                   ></input>
                   {/* Send Masage  */}
                   <textarea
-                    
                     placeholder="Your message"
                     className="w-full border-b py-2 focus:outline-none focus:border-[#10b981]"
                   ></textarea>
+                  {/* Button  */}
+                  <input
+                    type="submit"
+                    value="Send"
+                    className="w-full bg-[#55E5A4] hover:bg-[#10b981] text-white py-3 rounded-lg flex items-center justify-center gap-2 font-bold cursor-pointer"
+                  />
                 </form>
-                {/* Button  */}
-                <input
-                  type="submit"
-                  value="Send"
-                  className="w-full bg-[#55E5A4] hover:bg-[#10b981] text-white py-3 rounded-lg flex items-center justify-center gap-2 font-bold cursor-pointer"
-                />
               </div>
             </div>
           </div>
