@@ -81,25 +81,17 @@ const Contact = () => {
                   ></input>
                   {/* Send Masage  */}
                   <textarea
-                    type="message"
-                    
                     
                     placeholder="Your message"
                     className="w-full border-b py-2 focus:outline-none focus:border-[#10b981]"
                   ></textarea>
                 </form>
                 {/* Button  */}
-                <Link to={""}>
-                  {" "}
-                  <Button
-                    IoIosSend
-                    value="Send"
-                    className={
-                      "w-full bg-[#10b981] text-white py-3 rounded-lg flex items-center justify-center gap-2 font-bold"
-                    }
-                    btnText={" Send Message"}
-                  />
-                </Link>
+                <input
+                  type="submit"
+                  value="Send"
+                  className="w-full bg-[#55E5A4] hover:bg-[#10b981] text-white py-3 rounded-lg flex items-center justify-center gap-2 font-bold cursor-pointer"
+                />
               </div>
             </div>
           </div>

@@ -11,7 +11,7 @@ const Header = () => {
       <Conteinar>
         <div className="flex justify-between items-center px-10 py-6 ">
           <div className="w-10 h-10 mt-1">
-           <Link to={'./'}><Images imgSrc={Logo} className={""} /></Link>
+           <Link to={'/'}><Images imgSrc={Logo} className={""} /></Link>
           </div>
           <div className="">
             <ul className="flex gap-8 text-sm font-medium text-white">
