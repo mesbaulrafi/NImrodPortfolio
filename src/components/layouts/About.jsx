@@ -18,10 +18,10 @@ const About = () => {
               />
             </div>
             <div className="space-y-6">
-              <h2 class="text-3xl font-bold text-white border-b-2 border-[#10b981] inline-block pb-2">
+              <h2 className="text-3xl font-bold text-white border-b-2 border-[#10b981] inline-block pb-2">
                 About Me
               </h2>
-              <p class="text-gray-300 leading-relaxed w-[500px]">
+              <p className="text-gray-300 leading-relaxed w-[500px]">
                 I am currently a student in Applied Geoinformatics. I have a
                 keen interest in frontend and GIS development. My goal is to
                 apply my expertise in building exciting and functional web
