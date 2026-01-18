@@ -48,20 +48,16 @@ const Header = () => {
                 </li>
               </a>
               
-              <Link to={"/contact"}>
-                <li className="bg-[#55E5A4] px-4 py-2 rounded-full text-black border border-[#10b981] hover:text-[#fcfcfc] hover:bg-transparent hover:border hover:border-[#fcfcfc] cursor-pointer">
-                  Contact
-                </li>
-              </Link>
+              
             </ul>
           </div>
 
           <div className="">
-            <Link to={'/contact'}>
-              <i className="bg-[#55E5A4] px-4 py-2 rounded-full text-white text-lg font-semibold border border-[#10b981] hover:text-[#fcfcfc] hover:bg-transparent hover:border hover:border-[#fcfcfc] not-italic cursor-pointer">
-                Hire Me
-              </i>
-            </Link>
+            <Link to={"/contact"}>
+                <i className="bg-[#55E5A4] px-4 py-2 rounded-full text-black border border-[#10b981] hover:text-[#fcfcfc] hover:bg-transparent hover:border hover:border-[#fcfcfc] cursor-pointer">
+                  Contact
+                </i>
+              </Link>
           </div>
         </div>
       </Conteinar>
