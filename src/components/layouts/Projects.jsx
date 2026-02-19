@@ -56,8 +56,8 @@ const Projects = () => {
                   <Images imgSrc={Agency} className={'w-full h-48 object-cover group-hover:scale-110 transition duration-500'}/>
                   <div className="">
                     <ul className="absolute inset-0 bg-black/60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
-                      <Link to={''}><li className="p-3 bg-white text-black rounded-full mx-2 hover:text-[#10b981] hover:bg-[#000000]"><FaLink /></li></Link>
-                      <Link to={''}><li className="p-3 bg-white text-black rounded-full mx-2 hover:text-[#10b981] hover:bg-[#000000]"><FaGithub  /></li></Link>
+                      <Link to={'https://mesbaulrafi.github.io/mobailFinance/'}><li className="p-3 bg-white text-black rounded-full mx-2 hover:text-[#10b981] hover:bg-[#000000]"><FaLink /></li></Link>
+                      <Link to={'https://github.com/mesbaulrafi'}><li className="p-3 bg-white text-black rounded-full mx-2 hover:text-[#10b981] hover:bg-[#000000]"><FaGithub  /></li></Link>
                     </ul>
                   </div>
                 </div>
@@ -78,7 +78,7 @@ const Projects = () => {
                   <div className="">
                     <ul className="absolute inset-0 bg-black/60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
                       <Link to={''}><li className="p-3 bg-white text-black rounded-full mx-2 hover:text-[#10b981] hover:bg-[#000000]"><FaLink /></li></Link>
-                      <Link to={''}><li className="p-3 bg-white text-black rounded-full mx-2 hover:text-[#10b981] hover:bg-[#000000]"><FaGithub  /></li></Link>
+                      <Link to={'https://github.com/mesbaulrafi'}><li className="p-3 bg-white text-black rounded-full mx-2 hover:text-[#10b981] hover:bg-[#000000]"><FaGithub  /></li></Link>
                     </ul>
                   </div>
                 </div>
