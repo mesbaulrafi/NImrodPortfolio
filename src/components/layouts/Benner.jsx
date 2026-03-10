@@ -37,6 +37,7 @@ const Benner = () => {
                 </div>
               </div>
             </div>
+            {/* Images Part */}
             <div className="md:w-1/2 mt-12 md:mt-0 flex justify-end">
             <div className="relative w-80 h-80 bg-[#10b981] rounded-3xl overflow-hidden transform ">
               <Images imgSrc={Photo} className={'w-full h-[370px] object-cover'}/>
