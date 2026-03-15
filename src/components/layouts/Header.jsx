@@ -11,7 +11,7 @@ const Header = () => {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth", // স্মুথ স্ক্রল এনিমেশন হবে
+      behavior: "smooth", 
     });
   };
 
@@ -19,7 +19,7 @@ const Header = () => {
     <div className="bg-[#0b1120] sticky top-0 z-50">
       <Conteinar>
         <div className="flex justify-between items-center px-10 py-6 ">
-          {/* Logo Section - লোগোতে ক্লিক করলেও টপে যাবে */}
+          {/* Logo Section */}
           <div className="w-10 h-10 mt-1">
             <Link to={'/'} onClick={scrollToTop}>
               <Images imgSrc={Logo} className={""} />
