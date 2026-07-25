@@ -46,7 +46,7 @@ const About = () => {
                   </li>
                 </ul>
               </div>
-              <a href="/public/Mesbaul Rafi(Resume).pdf" download="Resume.pdf">
+              <a href="/public/resumeRafi2.pdf" download="Resume.pdf">
                 <Button
                 className={
                   "border border-[#55E5A4] text-[#55E5A4] px-6 py-2 rounded hover:bg-[#55E5A4] hover:text-black transition"
