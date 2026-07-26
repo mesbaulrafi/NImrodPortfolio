@@ -1,6 +1,6 @@
 import React from "react";
 import Images from "../Images";
-import Photo from "/src/assets/rrP.png";
+import Photo from "/src/assets/gitPhoto.png";
 import Conteinar from "../Conteinar";
 import Button from "../Button";
 
