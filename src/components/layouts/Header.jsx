@@ -31,7 +31,7 @@ const Header = () => {
               
               {/* ২. Home  */}
               <Link to={"/"} onClick={scrollToTop}>
-                <li className="bg-[#55E5A4] px-4 py-2 rounded-full text-black border border-[#10b981] hover:text-[#fcfcfc] hover:bg-transparent hover:border hover:border-[#fcfcfc] duration-300 cursor-pointer">
+                <li className="bg-[#55E5A4] px-4 py-2 rounded-full text-black border border-[#12be85] hover:text-[#fcfcfc] hover:bg-transparent hover:border hover:border-[#fcfcfc] duration-300 cursor-pointer">
                   Home
                 </li>
               </Link>
