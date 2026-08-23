@@ -54,7 +54,7 @@ const Header = () => {
 
           <div className="">
             <Link to={"/contact"}>
-                <i className="bg-[#55E5A4] px-4 py-2 rounded-full text-black border border-[#10b981] hover:text-[#fcfcfc] hover:bg-transparent hover:border hover:border-[#fcfcfc] duration-300 cursor-pointer">
+                <i className="bg-[#55E5A4] px-4 py-2 rounded-full text-black border border-[#10b981] hover:text-[#fcfcfc] hover:bg-transparent hover:border hover:border-[#fcfcfc] duration-320 cursor-pointer">
                   Contact
                 </i>
               </Link>
