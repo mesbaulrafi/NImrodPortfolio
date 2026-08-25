@@ -159,7 +159,7 @@ const Work = () => {
                   <h2 className="text-xl font-bold text-white mb-2">Mobail Finance</h2>
                   <p className="text-gray-400 text-sm mb-4">A complete dashboard built using Html,  CSS, JavaScript.</p>
                   <div className="flex gap-2">
-                    <span class="text-xs px-2 py-1 bg-gray-800 rounded text-[#10b981]">Html</span>
+                    <span class="text-xs px-2 py-1 bg-gray-800 rounded text-[#10c085]">Html</span>
                             <span class="text-xs px-2 py-1 bg-gray-800 rounded text-[#10b981]">JavaScript</span>
                   </div>
                 </div>
