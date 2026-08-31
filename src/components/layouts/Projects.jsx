@@ -1,6 +1,5 @@
 import React from "react";
 import Conteinar from "../Conteinar";
-import Button from "../Button";
 import { FaArrowRight } from "react-icons/fa";
 import Images from "../Images";
 import Orabi from "/src/assets/orebi.png"
